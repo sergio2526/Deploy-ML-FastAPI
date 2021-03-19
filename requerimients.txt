@@ -1,5 +1,0 @@
-fastapi[all]
-numpy == 1.20.1
-pickle-mixin == 1.0.2
-scikit-learn == 0.22.2.post1
-black == 20.8b1
