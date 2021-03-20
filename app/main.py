@@ -28,3 +28,4 @@ def model(age_experience: float):
     salary_integer = int(user_salary)
 
     return {"Salary ": salary_integer}
+
