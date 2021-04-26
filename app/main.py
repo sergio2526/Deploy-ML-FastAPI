@@ -10,6 +10,9 @@ model_predict = pickle.load(open("app/train-model/model.pkl", "rb"))
 class Model(BaseModel):
     age_experience: float
 
+@app.get("/")
+def main():
+    return "Welcome to Machine Learning FastAPI"
 
 # Request body
 @app.post("/api/")
